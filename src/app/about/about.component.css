@@ -1,0 +1,36 @@
+.container {
+    /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    vertical-align: middle;
+}
+
+.jumbotron {
+    /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    background: transparent;
+    vertical-align: middle;
+}
+
+.jumbotron p {
+    font-size: 2.5rem;
+    font-weight: 600px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    text-align: center;
+    color: #fff;
+    font-weight: 800px;
+    text-shadow: 2px 2px #333;
+    font-style: border;
+}
+
+.img-circle {
+    align-items: center;
+    border: 1px solid #333;
+    margin: 60px 0px;
+}
