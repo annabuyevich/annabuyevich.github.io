@@ -4,4 +4,4 @@ import { Component } from '@angular/core';
   templateUrl: `./contentArea.component.html`,
   styleUrls: ['./contentArea.component.css']
 })
-export class contentAreaComponent {}
+export class ContentAreaComponent {}

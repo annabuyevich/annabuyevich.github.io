@@ -3,12 +3,12 @@ import { Component } from '@angular/core';
 import { RouterLinkActive } from '@angular/router';
 
 @Component({
-  selector: 'header',
+  selector: 'app-header',
   templateUrl: `./header.component.html`,
   styleUrls: ['./header.component.css']
 })
-export class headerComponent {
-  private active: boolean = false;
+export class HeaderComponent {
+  private active = false;
 
   get isActive(): boolean {
     return this.active;
@@ -17,7 +17,7 @@ export class headerComponent {
   // hamburger
   isIn = false;
   toggleState() {
-    let bool = this.isIn;
+    const bool = this.isIn;
     this.isIn = bool === false ? true : false;
   }
 }

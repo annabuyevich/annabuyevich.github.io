@@ -146,6 +146,10 @@
     height: 100%;
 }
 
+.view img #pixel {
+    image-rendering: pixelated;
+}
+
 .view h2 {
     text-transform: uppercase;
     color: #fff;
@@ -166,6 +170,7 @@
     padding: 50px 5px 50px 5px;
     text-align: center;
     max-width: 85%;
+    display: inline-block;
 }
 
 .view a.info {

@@ -6,38 +6,38 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 
-import { headerComponent } from './header/header.component';
-import { contentAreaComponent } from './contentArea/contentArea.component';
+import { HeaderComponent } from './header/header.component';
+import { ContentAreaComponent } from './contentArea/contentArea.component';
 
-import { aboutComponent } from './about/about.component';
-import { contactComponent } from './contact/contact.component';
-import { projectsComponent } from './projects/projects.component';
-import { skillsComponent } from './skills/skills.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    headerComponent,
-    contentAreaComponent,
-    aboutComponent,
-    contactComponent,
-    projectsComponent,
-    skillsComponent
+    HeaderComponent,
+    ContentAreaComponent,
+    AboutComponent,
+    ContactComponent,
+    ProjectsComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
       {
         path: '',
-        component: contentAreaComponent
+        component: ContentAreaComponent
       },
       {
         path: 'projects',
-        component: projectsComponent
+        component: ProjectsComponent
       },
       {
         path: 'skills',
-        component: skillsComponent
+        component: SkillsComponent
       }
     ]),
     FormsModule,

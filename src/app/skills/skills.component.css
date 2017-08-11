@@ -125,6 +125,7 @@
 .view {
     width: 300px;
     height: 200px;
+    margin-left: 35px;
 }
 
 .view .mask,
@@ -143,6 +144,10 @@
     position: relative;
     height: 100%;
     widows: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    vertical-align: middle;
 }
 
 .view h2 {
@@ -154,27 +159,7 @@
     padding: 10px;
     background: #d9534f;
     margin: 20px 0 0 0;
-}
-
-.view p {
-    font-family: Georgia, serif;
-    font-style: italic;
-    font-size: 12px;
-    position: relative;
-    color: #c9302c;
-    padding: 10px 20px 20px;
-    text-align: center;
-}
-
-.view a.info {
-    display: inline-block;
-    text-decoration: none;
-    padding: 10px 14px 10px 14px;
-    align-items: center;
-    background: #333;
-    color: #c9302c;
-    text-transform: uppercase;
-    box-shadow: 0 0 1px #000;
+    vertical-align: middle;
 }
 
 .view img.pic {
@@ -186,10 +171,6 @@
     color: #fff;
     text-transform: uppercase;
     box-shadow: 0 0 1px #000;
-}
-
-.view a.info:hover {
-    box-shadow: 0 0 5px #000;
 }
 
 .view-first img {
@@ -206,12 +187,6 @@
     transform: translateY(-100px);
     opacity: 0;
     transition: all 0.2s ease-in-out;
-}
-
-.view-first p {
-    transform: translateY(100px);
-    opacity: 0;
-    transition: all 0.2s linear;
 }
 
 .view-first img.pic {
@@ -238,19 +213,13 @@
     transform: translateY(0px);
 }
 
-.view-first:hover h2,
-.view-first:hover p,
-.view-first:hover a.info {
+.view-first:hover h2 {
     opacity: 1;
     transform: translateY(0px);
 }
 
 .view-first:hover p {
     transition-delay: 0.1s;
-}
-
-.view-first:hover a.info {
-    transition-delay: 0.2s;
 }
 
 .view-first:hover img.pic {
