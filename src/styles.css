@@ -34,6 +34,16 @@ body {
     /* 50% */
 }
 
+@media screen and (max-device-width: 1500px) {
+    /* Specific to this particular image */
+    body {
+        background: url("assets/Graphics/background_two.jpg") no-repeat center center fixed;
+        background-size: cover;
+        min-height: 100%;
+    }
+    /* 50% */
+}
+
 #container {
     width: 50%;
     height: 50%;
