@@ -38,7 +38,6 @@ p {
 @media only screen and (max-device-width: 1000px) {
     .img-circle {
         height: 200px;
-        margin-top: 200px;
     }
 }
 
@@ -46,7 +45,7 @@ p {
     .jumbotron p {
         height: 200px;
         font-size: 1.3rem;
-        margin-top: 200px;
+        margin-top: 10px;
         width: 190px;
     }
 }
