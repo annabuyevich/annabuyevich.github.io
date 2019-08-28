@@ -24,16 +24,22 @@
 p {
     text-align: center;
     color: #fff;
-    font-weight: 600px;
+    font-weight: 400px;
+    opacity: 0.73;
     text-shadow: 1px 1px #333;
     line-height: 115%;
 }
 
 .img-circle {
     align-items: center;
-    border: 1px solid #333;
+    border: 1px solid #333333;
     margin: 60px 0px;
+    width: 400px;
+    /* you can use % */
+    height: auto;
 }
+
+img.resize {}
 
 @media only screen and (max-device-width: 1000px) {
     .img-circle {

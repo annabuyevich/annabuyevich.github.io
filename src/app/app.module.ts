@@ -29,6 +29,8 @@ import { SkillsComponent } from './skills/skills.component';
     RouterModule.forRoot([
       {
         path: '',
+        redirectTo: '',
+        pathMatch: 'full',
         component: ContentAreaComponent
       },
       {
@@ -38,6 +40,10 @@ import { SkillsComponent } from './skills/skills.component';
       {
         path: 'skills',
         component: SkillsComponent
+      },
+      {
+        path: '**',
+        component: ContentAreaComponent
       }
     ]),
     FormsModule,

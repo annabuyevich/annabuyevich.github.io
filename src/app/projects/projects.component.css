@@ -147,7 +147,14 @@
 }
 
 .view img #pixel {
-    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    /* Firefox */
+    image-rendering: -o-crisp-edges;
+    /* Opera */
+    image-rendering: -webkit-optimize-contrast;
+    /* Webkit (non-standard naming)*/
+    -ms-interpolation-mode: nearest-neighbor;
 }
 
 .view h2 {
